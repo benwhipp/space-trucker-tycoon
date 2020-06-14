@@ -8,15 +8,7 @@ import ReactDOM from 'react-dom';
 
 import App from './App';
 
-import {
-    ThemeProvider,
-} from '@material-ui/core';
-
-import Theme from './assets/theme/theme'
-
 ReactDOM.render(
-    <ThemeProvider theme={Theme}>
-        <App />
-    </ThemeProvider>,
+    <App />,
     document.getElementById('root')
 );

@@ -5,8 +5,10 @@
 	"dependencies": {
 		"@material-ui/core": "^4.9.14",
 		"@material-ui/icons": "^4.9.1",
+		"@types/styled-components": "^5.1.0",
 		"react": "^16.13.1",
 		"react-dom": "^16.13.1",
+		"styled-components": "^5.1.1",
 		"whatwg-fetch": "^3.0.0"
 	},
 	"scripts": {
@@ -19,6 +21,7 @@
 		"@types/react-dom": "^16.9.8",
 		"@types/webpack": "^4.41.13",
 		"@types/webpack-dev-server": "^3.10.1",
+		"babel-plugin-styled-components": "^1.10.7",
 		"css-loader": "^3.5.3",
 		"file-loader": "^6.0.0",
 		"fork-ts-checker-webpack-plugin": "^4.1.3",
